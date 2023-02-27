@@ -10,7 +10,6 @@ void positive_or_negative(int i);
 * main - prints the largest of 3 integers
 * Return: 0
 */
-
 int main(void)
 {
         int a, b, c;
