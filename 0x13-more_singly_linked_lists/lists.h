@@ -10,7 +10,7 @@ int _putchar(char c);
  * @len: length of the string
  * @next: points to the next node
  *
- *  
+ *
  */
 typedef struct list_s
 {
@@ -24,7 +24,7 @@ typedef struct list_s
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- * 
+ *
  */
 typedef struct listint_s
 {
