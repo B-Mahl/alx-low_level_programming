@@ -1,7 +1,7 @@
 /**
  * _pow_recursion - gives power of int
  * @x: base
- * @y: exponent 
+ * @y: exponent
  * Return: an integer
  */
 int _pow_recursion(int x, int y)
