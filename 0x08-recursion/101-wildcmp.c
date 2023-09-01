@@ -1,5 +1,3 @@
-#include <main.h>
-
 /**
  * wildcmp - Compares two strings with '*' wildcard.
  * @s1: The first string.
