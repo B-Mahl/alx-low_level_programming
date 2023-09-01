@@ -9,11 +9,12 @@ int get_length(char *s)
 	int length;
 
 	length = 0;
-	while (s[length] != '\0')
+	if (*s != '\0')
 	{
-		length++;
+		lenght = length + length(s + 1);
+		return (length += 1);
 	}
-	return (length);
+	return (0);
 }
 /**
  * is_palindrome_helper - recursivley checks characters
