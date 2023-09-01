@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * helper - tests integers
+ * is_prime_helper - tests integers
  * @i: helper int
  * @n: integer to test
  * Return: value
