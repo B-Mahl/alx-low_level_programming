@@ -7,7 +7,9 @@
  */
 int main(int argc, char *argv[])
 {
-	for (int j = 0; j < argc; j++)
+	int j;
+
+	for (j = 0; j < argc; j++)
 		printf("%s\n", argv[j]);
 
 	return (0);
