@@ -10,7 +10,6 @@ int main(int argc, char *argv[])
 {
 	int sum;
 	int i;
-	int j;
 
 	sum = 0;
 
@@ -33,3 +32,4 @@ int main(int argc, char *argv[])
 
 	return (0);
 }
+
