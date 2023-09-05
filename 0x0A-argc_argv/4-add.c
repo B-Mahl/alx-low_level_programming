@@ -13,11 +13,6 @@ int main(int argc, char *argv[])
 
 	sum = 0;
 
-	if (argc == 1)
-	{
-		printf("0\n");
-	}
-
 	for (i = 1; i < argc; i++)
 	{
 		if (*argv[i] > 57 || *argv[i] < 48)
@@ -25,6 +20,10 @@ int main(int argc, char *argv[])
 			printf("Error\n");
 
 			return (1);
+		}
+		if (argc == 1)
+		{
+			printf("0\n");
 		}
 		sum += atoi(argv[i]);
 	}
