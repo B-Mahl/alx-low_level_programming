@@ -21,14 +21,11 @@ int main(int argc, char *argv[])
 
 	for (i = 1; i < argc; i++)
 	{
-		for (j = 0; argv[i][j] != '\0'; j++)
+		if (*argv[i] > 57 || *argv[i] < 48)
 		{
-			if (argv[i][j] > '9' || argv[i][j] < '0')
-			{
-				printf("Error\n");
+			printf("Error\n");
 
-				return (1);
-			}
+			return (1);
 		}
 		sum += atoi(argv[i]);
 	}
