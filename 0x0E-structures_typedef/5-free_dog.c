@@ -5,7 +5,7 @@
  * free_dog - frees dog
  * @d: pointer to dog_t
  */
-void free_dog(dog_t *d);
+void free_dog(dog_t *d)
 {
 	if (d != NULL)
 	{
