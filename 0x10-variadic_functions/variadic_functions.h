@@ -21,4 +21,4 @@ typedef struct op
 	int (*f)(va_list a);
 } printer;
 #endif
-#endif
+
