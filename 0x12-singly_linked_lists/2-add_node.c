@@ -20,7 +20,7 @@ list_t *add_node(list_t **head, const char *str)
 	while (*str != '\0')
 		len++;
 
-	new_node->str = malloc(sizeof(len + 1);
+	new_node->str = malloc(sizeof(len + 1));
 	if (new_node->str == NULL)
 	{
 		free(new_node);
